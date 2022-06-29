@@ -302,6 +302,7 @@ def ventana_principal():
         aplicacion.mainloop()
     except ErrorAplicacion as e:
       ExceptionPopUp(str(e))
+      aplicacion.destroy()
   def videojuego():
     matarlo(bonificarv)
     matar.append(bonificarv)
@@ -334,6 +335,7 @@ def ventana_principal():
       aplicacion.mainloop()
     except ErrorAplicacion as e:
       ExceptionPopUp(str(e))
+      aplicacion.destroy()
   def empleado():
     matarlo(emple)
     matar.append(emple)
