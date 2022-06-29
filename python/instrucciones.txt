@@ -1,0 +1,37 @@
+Manual de usuario:
+Aclaracion 1: este programa fue hecho en un primer momento para multi-usuarios, pero para fines de evaluacion se ha modificado para que todo sea manejado por una misma persona.
+Aclaracion 2: todo lo que se ingrese que sea tipo "String" se debera ingresar en minuscula.
+Aclaracion 3: Cerrar el programa desde la opcion en menu, de lo contrario podria generar errores.
+Aclaracion 4.Si se quieren guardar los datos de ingreso debes darle en el primer boton del menu "Archivo" y luego oprimes salir, esto te llevara a la ventana de inicio donde nuevamente si quieres guardar debes usar la opcion de salir.
+
+El programa ofrece una serie de opciones, cada opcion se seleccionara escribiendo el numero correspondiente y presionando enter.
+El programa puede llegar a pedir informacion adicional, por ejemplo la opcion 4, al seleccionarla saldra el siguiente mensaje: "ingrese la cedula del cliente", cada que se pida este tipo de informacion, se debera teclear lo solicitado y presionar el boton enter.
+Cabe aclarar que el programa terminara de ejecutar al seleccionar la opcion 9, de lo contrario seguiran funcionando las otras opciones.
+Finalmente, luego de la ejecucion de cada opcion aparecera un mensaje en pantalla.
+
+Al abrir el programa, se encuentran unas capturas, fotos y descripciones de los creadores,
+luego en la ventana principal del admin aparece:
+Archivo:
+        1)Salir: devuelve a la ventana anterior
+        2)Aplicacion: da un breve resumen del objetivo de la empresa
+
+Procesos y consultas:
+        1)Comprar videojuego: ingresar la cedula del cliente y nombre del juego
+        2)Calificar videojuego: ingresa la cedula del cliente, el nombre del juego
+        y la calificacion(0-10)
+        3)Pagar empleados(automatica):paga a los empleados
+        4)Bonificacion especial a cliente: ingresa el nombre del cliente
+        5)Realizar bonificacion menusual(automatica): bonifica a los empleados
+        6)Opciones alternativas: se obtiene:
+            6.1)Mostrar detalles empleados(automatica): muestra los detalles de los empleados.
+            6.2)Mostrar detalles empresa(automatica): muestra detalles de la empresa utiles.
+            6.3)Mostrar catalogo(automatica): muestra el catalogo y aspectos de cada juego.
+            6.4)Mostrar cliente especifico: ingresa la cedula del cliente al que quiere ver.
+        7)Extras: se obtiene:
+            7.1)Anadir videojuego: anade manualmente un videojuego
+		Nota:Tener en cuenta que en el apartado de calificaciones las edades para los videojuegos estandar, solo se permitiran:+18,+16,+12,+7,+3.
+            7.2)Contratar empleado: se anade un empleado manualmente.
+            7.3)Ingresa dinero tarjeta: se selecciona al cliente y la cantidad de dinero
+Ayuda:
+        1)Acerca de: da el nombre de los autores
+
