@@ -4,11 +4,9 @@ Aclaracion 2: todo lo que se ingrese que sea tipo "String" se debera ingresar en
 Aclaracion 3: Cerrar el programa desde la opcion en menu, de lo contrario podria generar errores.
 Aclaracion 4.Si se quieren guardar los datos de ingreso debes darle en el primer boton del menu "Archivo" y luego oprimes salir, esto te llevara a la ventana de inicio donde nuevamente si quieres guardar debes usar la opcion de salir.
 
-El programa ofrece una serie de opciones, cada opcion se seleccionara escribiendo el numero correspondiente y presionando enter.
-El programa puede llegar a pedir informacion adicional, por ejemplo la opcion 4, al seleccionarla saldra el siguiente mensaje: "ingrese la cedula del cliente", cada que se pida este tipo de informacion, se debera teclear lo solicitado y presionar el boton enter.
-Cabe aclarar que el programa terminara de ejecutar al seleccionar la opcion 9, de lo contrario seguiran funcionando las otras opciones.
-Finalmente, luego de la ejecucion de cada opcion aparecera un mensaje en pantalla.
-
+El programa ofrece una serie de opciones encontradas en el menu, en procesos y consultas se encontraran las 5 funcionalidades y en las opciones desplegables las funciones extra.
+El usuario debera clickear cada una de estas para acceder a cada ventana de las funcionalidades, ya encontrandose en estas ventanas el usuario al hacer las acciones y al llenar los campos requeridos oprimira el boton aceptar; seguido a esto se le desplegara una ventana de dialogo, ya sea de un proceso exitoso o de un mal manejo con una alerta.
+Si el usuario quiere hacer de nuevo la accion y llenar el campo nuevamente se dispondra a usar el boton borrar y asi podra llenar el formulario nuevamente.
 Al abrir el programa, se encuentran unas capturas, fotos y descripciones de los creadores,
 luego en la ventana principal del admin aparece:
 Archivo:
