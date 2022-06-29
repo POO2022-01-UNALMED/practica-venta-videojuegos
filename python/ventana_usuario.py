@@ -1,3 +1,121 @@
+from doctest import master
+import math
+from gestor_aplicacion.gestion.catalogo import Catalogo
+from gestor_aplicacion.gestion.Desarrollador import Desarrollador
+from gestor_aplicacion.gestion.Dian import Dian
+from gestor_aplicacion.gestion.Empresa import Empresa
+from gestor_aplicacion.gestion.Gobierno import Gobierno
+from gestor_aplicacion.gestion.Rango import Rango
+from gestor_aplicacion.gestion.tarjeta import Tarjeta
+from gestor_aplicacion.gestion.Videojuego import Videojuego
+#########################
+from gestor_aplicacion.personas.cliente import Cliente
+from gestor_aplicacion.personas.Persona import Persona
+from gestor_aplicacion.personas.Empleado import Empleado
+from uiMain.inicio import Inicio
+from uiMain.ventana_exception import ExceptionPopUp
+from uiMain.error_aplicacion import ErrorAplicacion
+from uiMain.ciente_nf_exception import ClienteException
+from baseDatos.serializador import Serializador
+'''
+t1=Tarjeta(1001,5000)
+t2=Tarjeta(2378,1233)
+t3=Tarjeta(7410,2344)
+t4=Tarjeta(8806,3007)
+t5=Tarjeta(6960,990)
+tc1=Tarjeta(9944,5200)
+tc2=Tarjeta(6960,990)
+tc3=Tarjeta(3390,1556)
+tc4=Tarjeta(2012,2000)
+tc5=Tarjeta(4467,10050)
+td1=Tarjeta(4400,10000)
+td2=Tarjeta(5003,25000)
+td3=Tarjeta(7791,20700)
+
+
+dian=Tarjeta(7891,0)
+Dian.tarjetal2([dian])
+
+te=Tarjeta(1709,10000)
+Empresa.setTarjeta([te])
+
+
+e1= Empleado("Juan Carlos Zapata",10101000,30,t1,100,"Vendedor",25)
+e2= Empleado("Tatiana Perea",12101509,22,t2,100,"Vendedor",40)
+e3= Empleado("Oscar suarez",10351022,37,t3,100,"  Vendedor",0)
+e4= Empleado("Pablo Rodriguez",10257622,40,t4,100,"  Vendedor",50)
+e5= Empleado("Gustavo Fring",66078005,28,t5,100,"  Vendedor",100)
+
+D1=Desarrollador("ubisoft",td1,0.3)
+D2=Desarrollador("ubisoft",td2,0.45)
+D3=Desarrollador("ubisoft",td3,0.1)
+
+
+v1=  Videojuego("Terror","silent hill" ,50.35, 10, D1, "+18",1)
+v2=  Videojuego("Aventura","uncharted" ,60.15, 10, D1, "+12",1)
+v3=  Videojuego("Carreras","forza horizon" ,35.70, 10, D3, "+7",1)
+v4=  Videojuego("Aventura","minecraft" ,45.35, 10, D3, "+3",1)
+v5=  Videojuego("Deportes","fifa" ,62.01, 10, D1, "+7",1)
+v6=  Videojuego("Accion","call of duty" ,70.15, 10, D2, "+18",1)
+v7=  Videojuego("Familiar","los sims" ,20.45, 10, D3, "+3",1)
+v8=  Videojuego("Accion","dark souls" ,50.09, 10, D1, "+16",1)
+v9=  Videojuego("Aventura","crash bandicoot" ,39.95, 10, D2, "+12",1)
+v10=  Videojuego("Accion","gta v" ,70.45, 10, D1, "+18",1)
+
+D1.getVideojuegos().append(v1)
+D1.getVideojuegos().append(v2)
+D1.getVideojuegos().append(v5)
+D1.getVideojuegos().append(v8)
+D1.getVideojuegos().append(v10)
+D2.getVideojuegos().append(v9)
+D3.getVideojuegos().append(v3)
+D3.getVideojuegos().append(v4)
+D3.getVideojuegos().append(v6)
+D3.getVideojuegos().append(v7)
+
+catalogo=[]
+catalogo.append(v1)
+catalogo.append(v2)
+catalogo.append(v8)
+catalogo.append(v5)
+catalogo.append(v10)
+ci= Catalogo()
+Catalogo.setVideojuegos(catalogo)
+
+
+c1= Cliente("Marco Aurelio Gomez",100,22,tc1,20)
+c2= Cliente("Jeronimo Zapata",200,16,tc2,15)
+c3= Cliente("Didier Herrera",300,30,tc3,30)
+c4= Cliente("Miguel Angel Vera",400,45,tc4,20)
+c5= Cliente("Santiago Marulanda",500,27,tc5,50)
+
+
+Empresa.setListaDesarrolladores([D1])
+
+c1.comprarVideojuego("silent hill")
+c1.comprarVideojuego("uncharted")
+
+c2.comprarVideojuego("gta v")
+
+
+c3.comprarVideojuego("fifa")
+c3.comprarVideojuego("dark souls")'''
+
+'''print(e1.getTarjeta().getSaldo())
+print(e2.getTarjeta().getSaldo())
+print(Empresa.pagarEmpleados())
+print(e1.getTarjeta().getSaldo())
+print(e2.getTarjeta().getSaldo())
+print(Empresa.pagarEmpleados())
+print("Se lleva pagado a la Dian un total de "+str(Dian.getTarjeta1().getSaldo()))'''
+
+
+'''print(Empresa.revisionMensual())
+print(Empresa.revisionMensual())'''
+###################################################
+#####################################################3
+#######################################################
+###########################################################
 import tkinter as tk;
 from tkinter import E, Frame,INSERT,Entry,scrolledtext,Label,BOTH
 import tkinter.scrolledtext as st
